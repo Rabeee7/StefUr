@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StefUr</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Homepage view -->
+<div id="homepage" class="view" role="main" aria-label="StefUr homepage">
+    <h1>StefUr</h1>
+    <p class="lead">Explore the world</p>
+    <button class="cta" id="getStartedBtn" aria-label="Get Started with StefUr login">Get Started</button>
+</div>
+
+<!-- Login view -->
+<div id="loginview" class="view" style="display:none;" role="main" aria-label="StefUr login form">
+    <span tabindex="0" class="back-btn" id="backToHomeBtn" role="button" aria-label="Back to homepage">&larr; Back</span>
+    <div class="logo" aria-label="StefUr Logo">StefUr</div>
+    <form id="loginForm" novalidate>
+        <input 
+            type="text" 
+            id="username" 
+            name="username"
+            placeholder="Username or email" 
+            aria-required="true" 
+            autocomplete="username" 
+        />
+        <input 
+            type="password" 
+            id="password" 
+            name="password"
+            placeholder="Password" 
+            aria-required="true" 
+            autocomplete="current-password" 
+        />
+        <button type="submit" disabled>Log In</button>
+    </form>
+    <div class="forgot">
+        <a href="#" tabindex="0">Forgot password?</a>
+    </div>
+    <div class="signup-prompt">
+        Don't have an account? <a href="#" tabindex="0">Sign up</a>
+    </div>
+</div>
+
+<!-- Main Page -->
+<div id="mainPage" class="view" role="main" aria-label="StefUr main page">
+    <h1>Welcome to StefUr</h1>
+    <p>Your gateway to exploring the world.</p>
+    
+    <!-- Features Section -->
+    <div class="features">
+        <div class="feature">
+            <p>I will carry out great vengeance on them,Then they will know that I am the Lord</p>
+        </div>
+        <div class="feature">
+            <p>I will execute judgment with plague and bloodshed; Then they will know that I am the Lord</p>
+        </div>
+        <div class="feature">
+            <p>We ordained life for life, eye for eye, nose for nose,and for wounds equal retaliation</p>
+        </div>
+    </div>
+</div>
+  
+    <!-- New small button -->
+    <div class="button-container">
+  <button class="small-btn">comenzar</button>
+    </div>
+
+<!-- Footer -->
+<footer>
+    &copy; 2025 StefUr. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
