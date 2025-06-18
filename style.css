@@ -15,7 +15,7 @@ html, body {
 
 /* Container for views */
 .view {
-    min-height: 83.8vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
