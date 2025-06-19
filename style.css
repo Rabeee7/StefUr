@@ -6,7 +6,7 @@
 }
 
 html, body {
-    height: 90%;
+    height: 100%;
     font-family: 'Space Mono', monospace;
     background: #0a0f1a;
     overflow-x: hidden;
@@ -207,7 +207,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .small-btn:hover,
